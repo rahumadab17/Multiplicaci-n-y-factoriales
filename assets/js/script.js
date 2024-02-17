@@ -5,7 +5,7 @@ let calcularMostrarResultado = (num) => {
     }
     for (let i = 1; i <= num; i++){
         let multiplicacion = i * num;
-        console.log(`${i} x ${num} = ${multiplicacion}<br>`);
+        console.log(`${i} x ${num} = ${multiplicacion}`);
     }
 
     for(let i = 1; i <= num; i++){
@@ -13,7 +13,7 @@ let calcularMostrarResultado = (num) => {
         for (let j = 1; j <= i; j++){
             resultado = resultado * j;
         }
-        console.log(`Factorial de ${i} es: ${resultado}<br>`);
+        console.log(`Factorial de ${i} es: ${resultado}`);
     }
 }
 
